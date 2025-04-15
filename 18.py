@@ -25,4 +25,4 @@ else:
         elif num3 < num1 and num3 > num2:
             num5 = num3
 num6 = num4 + num5
-print("O maior numero é:", num6)
+print("A soma do primeiro e do segundo número é:", num6)
