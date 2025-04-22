@@ -1,7 +1,8 @@
-n = "senha"
-m = "null"
-while n != m:
+n = int(0)
+m = int(0)
+while m >= 0:
     print("Digite a senha")
-    m = input()
-    if m == n:
-        print("Senha correta")
+    m = int(input())
+    if m >= 0:
+        n += m
+print("A soma é:", n)
